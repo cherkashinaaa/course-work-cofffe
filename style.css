@@ -14,10 +14,10 @@ a:hover {
 }
 
 body {
-  font-size: 12pt;
-  line-height: 1.75em;
-  font-family: Georgia, serif;
-  background: white;
+  font-size: 12pt; /* Размер текста*/
+  line-height: 1.75em; /*Расстояние между буквами */
+  font-family: "Montserrat", sans-serif; /* Выбор шрифта*/
+  background: white; /*Цвет фона  */
 }
 
 br.clear {
@@ -49,7 +49,7 @@ img.top {
 }
 
 p {
-  margin-bottom: 1.5em;
+  margin-bottom: 1.5em; /*нижний margin  */
 }
 
 ul {
@@ -165,10 +165,12 @@ ul {
   top: 73px;
 }
 
-#nav a {
-  text-decoration: none;
-  color: black;
-  font-size: 1.2em;
+#nav a:visited {
+  /* color: thistle; Цвет если посетил страницу */
+}
+#nav a:hover {
+  color: rgb(80, 80, 80); /*цвет при наведении */
+  text-decoration: underline; /*Подчеркивание при наведении */
 }
 
 #nav li {

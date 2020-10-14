@@ -1,0 +1,28 @@
+body {
+  font-size: 12pt; /* Размер текста*/
+  line-height: 1.75em; /*Расстояние между буквами */
+  font-family: "Montserrat", sans-serif; /* Выбор шрифта*/
+  background: white; /*Цвет фона  */
+}
+
+p {
+  margin-bottom: 1.5em; /*нижний margin  */
+  text-align: left; /* выравнивание по левой стороне */
+}
+
+P:first-letter {
+  font-size: 200%; /* Размер шрифта первого символа */
+  color: red; /* Красный цвет текста */
+}
+#nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2em;
+}
+#nav a:visited {
+  /* color: thistle; Цвет если посетил страницу */
+}
+#nav a:hover {
+  color: rgb(80, 80, 80); /*цвет при наведении */
+  text-decoration: underline; /*Подчеркивание при наведении */
+}
