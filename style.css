@@ -61,9 +61,7 @@ ul {
   color: black;
   font-size: 1.2em;
 }
-#nav a:visited {
-  /* color: thistle; Цвет если посетил страницу */
-}
+
 #nav a:hover {
   color: rgb(80, 80, 80); /*цвет при наведении */
   text-decoration: underline; /*Подчеркивание при наведении */

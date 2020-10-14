@@ -1,0 +1,242 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  color: #1495ff;
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+body {
+  font-size: 12pt; /* Размер текста*/
+  line-height: 1.75em; /*Расстояние между буквами */
+  font-family: "Montserrat", sans-serif; /* Выбор шрифта*/
+  background: white; /*Цвет фона  */
+}
+
+br.clear {
+  clear: both;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  letter-spacing: -1px;
+}
+
+h2,
+h3,
+h4 {
+  margin-bottom: 1em;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+}
+
+img.left {
+  float: left;
+  margin: 5px 20px 20px 0;
+}
+
+img.top {
+  margin: 5px 0 20px 0;
+}
+
+p {
+  margin-bottom: 1.5em; /*нижний margin  */
+}
+
+ul {
+  margin-bottom: 1.5em;
+}
+
+#nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2em;
+}
+
+#nav a:hover {
+  color: rgb(80, 80, 80); /*цвет при наведении */
+  text-decoration: underline; /*Подчеркивание при наведении */
+}
+
+.imageList {
+  list-style: none;
+}
+
+.imageList li {
+  clear: both;
+}
+
+#box1 {
+  width: 745px;
+  overflow: hidden;
+  margin: 0 0 35px 0;
+}
+
+#box2 {
+  overflow: hidden;
+  float: left;
+}
+
+#box3 {
+  width: 355px;
+  overflow: hidden;
+  margin: 0 0 0 390px;
+}
+
+#content {
+  width: 745px;
+  margin: 0 0 0 150px;
+  padding: 40px;
+  background: whitesmoke;
+}
+
+#copyright {
+  padding: 0 0 80px 0;
+  text-align: center;
+  color: #d8c2ab;
+}
+
+#copyright a {
+  color: #d8c2ab;
+}
+
+#header {
+  position: relative;
+  padding: 40px;
+  height: 120px;
+}
+
+#logo {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  height: 120px;
+  line-height: 120px;
+}
+
+#logo a {
+  text-decoration: none;
+  color: black;
+}
+
+#logo h1 {
+  font-size: 3.5em;
+}
+
+#main {
+  position: relative;
+  padding: 0;
+  width: 1180px;
+  color: #5e5e5e;
+}
+
+#main strong {
+  color: #3e3e3e;
+}
+
+#main h2,
+#main h3,
+#main h4 {
+  color: #242424;
+}
+
+#main ul {
+  list-style: none;
+}
+
+#main ul li {
+  padding: 15px 0 15px 0;
+  border-top: dotted 1px #b3b3b3;
+}
+
+#main ul li.first {
+  padding-top: 0;
+  border-top: 0;
+}
+
+#main ul.imageList li {
+  padding: 15px 0 15px 0;
+}
+
+#nav {
+  position: absolute;
+  right: 40px;
+  height: 53px;
+  line-height: 53px;
+  top: 73px;
+}
+
+#nav a:visited {
+  /* color: thistle; Цвет если посетил страницу */
+}
+#nav a:hover {
+  color: rgb(80, 80, 80); /*цвет при наведении */
+  text-decoration: underline; /*Подчеркивание при наведении */
+}
+
+#nav li {
+  margin: 0 1em 0 1em;
+}
+
+#nav ul {
+  list-style: none;
+}
+
+#nav ul li {
+  float: left;
+}
+
+#outer {
+  position: relative;
+  width: 1180px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.adress {
+    margin-top: 20px;
+}
+
+
+[class*=mobo-] {
+    text-indent: 5px;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    display: inline-block;
+    //display:inline;
+    //zoom:1;
+    vertical-align:middle;
+    margin-right:3px;
+    }
+    
+    /*Vodafone*/
+    .mobo-vodafone-16{
+    line-height:16px;
+    padding-left:16px;
+    background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACyklEQVQ4T2WTT0iTcRjHv79378Z0h1gKgpSDUNCLVAe7jcitw2AIHvWioJvoyTQpOlTQkIooQg/TeVOQgeBFtMO0WJeZFORohgcNfdM53R+2vX9/r794l1sjf/Aefu/D83m+z/N9fgT/nY2NjXqHwzFht9vd55Q2MJ5HhpATIRZbz8nyy66urmR1Cqm+xOPx5y0tLY8lSTIzXcdhNgvF54N9cxPqzg5YLqcJgvDO7XZPlPMqgMPDw5W6ujqPoijgLRbE/H7cbW3F+dwctmMx4OAAmqZBVVXk8/mIx+NxGZASIJFIPHU4HM+MIDGZkOjtxR2fD+jrw6/GRhSWlyGensKAS5IEWZZRKBTe9PT0jJNwOHy1u7v7uFAomHVKsRcM4nZHB4jXC2ga8jYbvvf3QxweBre3B1FVSwBZlmk+n79O9vf3X9nt9oeGPFpTA4yOoiEcBkQRUNXKiIo1NVhbXQU7PoZ4oYTjuCmSzWa/UkpvUU1D+ugIzYEAzGtrQLH4v0E4bWrCyvQ0FEEASKn7OMlkMoKiKI0apUgnEmgfGQF2dwHGLgF+cxw+zc8bQyzHTkgqlRJkWS4Bcskk2p1OcFXSqyk/zWb8CIWQkuV/AEEQvqmqetOYQcFmw43mZlyRpEvVzwFsWiyILyzgPJ0ux+Nke3v7tdVqHTcsVBUFqaUluAKBv/5eHKOZL7W1sHZ24rPXC/6iPULIFAkGg/Uul+sol8vxsqKA8jyyMzNwh0KlOaRNJpyaTIDTiejQEMxnZ2WuTim9VioUjUZf8Dz/xFgUw2NVlpFkDJatLVgVBdm2NugATJRWVBFC3vp8vgcVpZFI5AOl9L6xacYniiKobqThkiMcx60PDg52Vla5jF1cXJwEMFYsFs20qlplFoxRnuffDwwMjF16TOUfs7OzDbquPyKE3APQQAgBY+yEMfaREDLp9/uPqi36Az1LdjTtRw6iAAAAAElFTkSuQmCC);
+    }
+    
+    /*Київстар*/
+    .mobo-kyivstar-16{
+    line-height:16px;
+    padding-left:16px;
+    background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABxUlEQVQ4T8WSMWgTYRTHf993l7umnkYaqKkIOojopMVNEboV7F6Kg4NERVvsFItQqVoKFgRrYq0VoVQ6dXdRxEFwKk6CdFIEo0nVobk0ufS+75O0CD2T3upb/7/34/HeE8TVbOUExu1jxJnbDROxgnn9jVAcxCHDZVFqx8YLnunPKHEEl24uibX/IviCEofBP8C1veX2E1xZSXCq9znltRx3MlEoH65Ql6fpqqTJpn5HBI/VGNJ8EhTCRTzrIiFQN2DpJSzrJlfF90jDsrEobmZxrQdo6eEBNVMT9L21GTo3w6bsxxVHSQA/DeRkdMGzwW2Szj0UEBofpd9gN6ajUCE4jmWfxzGrZO2XkQkmyh6p9C2S+jVp+x2Doqki/oyxT7IdthdM/zpEcs8ANzrmt6gXpptSMESuI/+vs1Ww4GdY7/yKIxL4JY9cpspDVSQle6g1xhl2p3ZKWgUFtco+eYyqesV1u38LXmz0spH4gEBjN06SdT/+lUQFM8EkKWecdQ2jVjR7GtzHdcaomwo/RBd3RfPwO3aQNy5S10GCtcvnPVFFHNlDtXaW0c73rUt8tHEGGxjeDltqwezH1xcYkXMIYZr5HyCbmkS73v+dAAAAAElFTkSuQmCC);
+    }
+    
+    /*Lifecell*/
+    .mobo-lifecell-16{
+    line-height:16px;
+    padding-left:16px;
+    background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACYUlEQVQ4T22TX4hMcRTHP+d378y4u7Pyr5SkFEWU7MykCG0hyQPRvChPhFq8eCY8sY+SUlt4tRJKrYfdts0uOzO7KSGbJLW1W1j7Z+bOzL2/o7lrZ8eu39vvnN/5nD+/7xH+c0oFzoolK8pqVQyGn7g8fz7KnWyWsDFEGi8zBQ7HLF0YLAZQtO5XBEvMQruXoXPeXgcU81xyhFsIZSxqLe3GJQscAIKGRPEwpLMpQ3vNFgGmhtidcOj5G+yVSqxdsZdfNZ+f54U47P+nGohby3kvzcMIUB7iNy6qFtfCTS/FbZG58v08d8VwGrD/jCsk/uwrSSkOc9JRHgDvfigH16UplnLc8zJcmBpgSyJBAYlaUIUpqwwZ4bgos+JwTfwcXQYm4xnO6Hvi5SIfJcYqApZjCBB8FLHw3UuxrVbF7wE2LfN4bwP6xR/mybJWTtT7NeyrlyqIWjy19AWGiy0pPs77/Bwhwhfp7cVtayOY7mNrPMlINMjaUTxVekplzq3cwze/wOHv4/RuPkJ5Ns9V1+GKhozXv9EfYUyUpig4pLlqOJpM0R0NOc8HhA2AqyG+OBgE1YCRBcAQobjMqCVRjbGhZQcToy9JrF/DZ+OyYolga8Jy6IgAk31s9Fr4hGKrAceSu+hWkHKOV2LYVcu2BGBJxCusjACzb0i5MQat8thLcyqyvSXtuvQjVP6zLo4VOrydXF+QcoGnnpKVNNWo72FmF0l4jiMYGzDoZThUl/LiDKo4lQIVDDMNvtqKuVXD/WQrl5csUyNkOsf2uPLIuqxzaloImFDD61C40dzKWOPbP2aj8fPqM5QuAAAAAElFTkSuQmCC);
+    }
+    
+    </style>
